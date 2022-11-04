@@ -1,0 +1,325 @@
+﻿++Solution 'ScMaSy_ice' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ScMaSy_ice.sln
+++ScMaSy_ice
+i:{00000000-0000-0000-0000-000000000000}:ScMaSy_ice
+++Properties
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\properties\
+++References
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++ComponentFactory.Krypton.Design
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++ComponentFactory.Krypton.Docking
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++ComponentFactory.Krypton.Navigator
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++ComponentFactory.Krypton.Ribbon
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++ComponentFactory.Krypton.Toolkit
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++ComponentFactory.Krypton.Workspace
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++Microsoft.CSharp
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.ComponentModel.DataAnnotations
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Core
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Data
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Data.DataSetExtensions
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Deployment
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Drawing
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Net.Http
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Windows.Forms
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Xml
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++System.Xml.Linq
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:
+++Components
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\components\
+++ControlFunctions.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\components\controlfunctions.cs
+++Database
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\database\
+++Models
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\models\
+++UserModel.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\models\usermodel.cs
+++Resources
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\
+++49395_girl_lady_pupil_student_user_icon.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\49395_girl_lady_pupil_student_user_icon.png
+++add_insert_1193.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\add_insert_1193.png
+++admin_person_user_man 32 x 32.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\admin_person_user_man 32 x 32.png
+++admin_person_user_man 32 x 321.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\admin_person_user_man 32 x 321.png
+++analytics_chart_bars_graphic_finance_business_money_coin_icon_150732.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\analytics_chart_bars_graphic_finance_business_money_coin_icon_150732.png
+++books_school(32 x 32).ico
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\books_school(32 x 32).ico
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\books_school(32 x 32).ico
+++businessregistration_signpen_negocio_inscripcio_2358 (1).png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\businessregistration_signpen_negocio_inscripcio_2358 (1).png
+++cross_delete_remove_icon_197138.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\cross_delete_remove_icon_197138.png
+++icons8_about_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_about_32px.png
+++icons8_alphabetical_sorting_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_alphabetical_sorting_32px.png
+++icons8_calendar_1_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_calendar_1_32px.png
+++icons8_circle_16px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_circle_16px.png
+++icons8_circle_16px_1.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_circle_16px_1.png
+++icons8_classroom_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_classroom_32px.png
+++icons8_contact_details_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_contact_details_32px.png
+++icons8_course_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_course_32px.png
+++icons8_delete_12px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_delete_12px.png
+++icons8_delete_32px_2.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_delete_32px_2.png
+++icons8_edit_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_edit_32px.png
+++icons8_edit_property_15px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_edit_property_15px.png
+++icons8_email_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_email_32px.png
+++icons8_error_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_error_32px.png
+++icons8_eye_30px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_eye_30px.png
+++icons8_filled_circle_16px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_filled_circle_16px.png
+++icons8_help_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_help_32px.png
+++icons8_hierarchy_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_hierarchy_32px.png
+++icons8_image_120px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_image_120px.png
+++icons8_info_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_info_32px.png
+++icons8_microsoft_excel_2019_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_microsoft_excel_2019_32px.png
+++icons8_phone_32px_1.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_phone_32px_1.png
+++icons8_plus_25px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_plus_25px.png
+++icons8_print_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_print_32px.png
+++icons8_search_28px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_search_28px.png
+++icons8_shutdown_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_shutdown_32px.png
+++icons8_time_25px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_time_25px.png
+++icons8_update_32px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_update_32px.png
+++icons8_user_shield_30px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_user_shield_30px.png
+++password_userpassword_9564.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\password_userpassword_9564.png
+++print_printer_printing_1549.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\print_printer_printing_1549.png
+++print_printer_printing_15491.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\print_printer_printing_15491.png
+++table_12945 (5).png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\table_12945 (5).png
+++teacher_man 32 x 32.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\teacher_man 32 x 32.png
+++user_add_12818.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\user_add_12818.png
+++user_home_16958 (4).png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\user_home_16958 (4).png
+++users 32 x 32.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\users 32 x 32.png
+++Views
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\
+++CustomePopup
+++ChooseDate.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\customecontrols\choosedate.cs
+++AboutUsView.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\aboutusview.cs
+++ClassroomView.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\classroomview.cs
+++FM_AddOrEditClassroomSection.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoreditclassroomsection.cs
+++FM_AddOrEditClassroomView.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoreditclassroomview.cs
+++FM_AddOrEditUser.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoredituser.cs
+++FM_Courses.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_courses.cs
+++FM_NewAcademicYear.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_newacademicyear.cs
+++FM_Payment.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_payment.cs
+++FM_Registration.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_registration.cs
+++FM_Registration.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_registration.designer.cs
+++FM_Registration.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_registration.resx
+++FM_RelationBetweenClassroom.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_relationbetweenclassroom.cs
+++FM_SchoolConfig.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_schoolconfig.cs
+++HelpAndSupport.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\helpandsupport.cs
+++LoginView.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\loginview.cs
+++SchoolConfigView.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\schoolconfigview.cs
+++StudentView.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\studentview.cs
+++UsersView.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\usersview.cs
+++App.config
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\app.config
+++FM_Main.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\fm_main.cs
+++Program.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\program.cs
+++AssemblyInfo.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\properties\assemblyinfo.cs
+++Resources.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\properties\resources.resx
+++Settings.settings
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\properties\settings.settings
+++dbConnection.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\database\dbconnection.cs
+++ChooseDate.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\customecontrols\choosedate.designer.cs
+++ChooseDate.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\customecontrols\choosedate.resx
+++AboutUsView.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\aboutusview.designer.cs
+++AboutUsView.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\aboutusview.resx
+++ClassroomView.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\classroomview.designer.cs
+++ClassroomView.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\classroomview.resx
+++FM_AddOrEditClassroomSection.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoreditclassroomsection.designer.cs
+++FM_AddOrEditClassroomSection.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoreditclassroomsection.resx
+++FM_AddOrEditClassroomView.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoreditclassroomview.designer.cs
+++FM_AddOrEditClassroomView.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoreditclassroomview.resx
+++FM_AddOrEditUser.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoredituser.designer.cs
+++FM_AddOrEditUser.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_addoredituser.resx
+++FM_Courses.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_courses.designer.cs
+++FM_Courses.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_courses.resx
+++FM_NewAcademicYear.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_newacademicyear.designer.cs
+++FM_NewAcademicYear.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_newacademicyear.resx
+++FM_Payment.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_payment.designer.cs
+++FM_Payment.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_payment.resx
+++FM_RelationBetweenClassroom.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_relationbetweenclassroom.designer.cs
+++FM_RelationBetweenClassroom.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_relationbetweenclassroom.resx
+++FM_SchoolConfig.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_schoolconfig.designer.cs
+++FM_SchoolConfig.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_schoolconfig.resx
+++HelpAndSupport.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\helpandsupport.designer.cs
+++HelpAndSupport.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\helpandsupport.resx
+++LoginView.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\loginview.designer.cs
+++LoginView.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\loginview.resx
+++SchoolConfigView.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\schoolconfigview.designer.cs
+++SchoolConfigView.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\schoolconfigview.resx
+++StudentView.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\studentview.designer.cs
+++StudentView.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\studentview.resx
+++UsersView.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\usersview.designer.cs
+++UsersView.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\usersview.resx
+++FM_Main.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\fm_main.designer.cs
+++FM_Main.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\fm_main.resx
+++Resources.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\properties\settings.designer.cs
+++icons8_sort_down_16px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_sort_down_16px.png
+++CustomeControls
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\customecontrols\
+++wClass.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\customecontrols\wclass.cs
+++Add_22314.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\add_22314.png
+++icons8_add_48px.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\icons8_add_48px.png
+++FM_ShowStudentDetails.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_showstudentdetails.cs
+++FM_ShowStudentDetails.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_showstudentdetails.designer.cs
+++FM_ShowStudentDetails.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_showstudentdetails.resx
+++StudentRow.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\customecontrols\studentrow.cs
+++StudentRow.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\customecontrols\studentrow.designer.cs
+++StudentRow.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\customecontrols\studentrow.resx
+++iEngrenages_24182.png
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\resources\iengrenages_24182.png
+++FM_Re_registration.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_re_registration.cs
+++FM_Re_registration.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_re_registration.designer.cs
+++FM_Re_registration.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_re_registration.resx
+++FM_ShowStudentDetails1.cs
+++FM_ShowStudentDetails1.Designer.cs
+++FM_ShowStudentDetails1.resx
+++FM_ShowStudentDetails - Copy.cs
+++FM_ShowStudentDetails - Copy.Designer.cs
+++FM_ShowStudentDetails - Copy.resx
+++FM_ShowUserInfos.cs
+++FM_ShowUserInfos.Designer.cs
+++FM_ShowUserInfos.resx
+++FM_ShowUserInfo.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_showuserinfo.cs
+++FM_ShowUserInfo.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_showuserinfo.designer.cs
+++FM_ShowUserInfo.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\fm_showuserinfo.resx
+++UserGroupConfig.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\usergroupconfig.cs
+++UserGroupConfig.Designer.cs
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\usergroupconfig.designer.cs
+++UserGroupConfig.resx
+i:{ff47c591-0b2c-485c-8f05-877269e3a787}:c:\users\winceslas\documents\mvs project\scmasy_ice\scmasy_ice\views\usergroupconfig.resx

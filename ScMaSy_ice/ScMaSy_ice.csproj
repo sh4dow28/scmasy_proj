@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF47C591-0B2C-485C-8F05-877269E3A787}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ScMaSy_ice</RootNamespace>
+    <AssemblyName>ScMaSy</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>books_school%2832 x 32%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Design">
+      <HintPath>..\..\..\..\Desktop\Krypton-master\Krypton\ComponentFactory.Krypton.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Docking">
+      <HintPath>..\..\..\..\Desktop\Krypton-master\Krypton\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator">
+      <HintPath>..\..\..\..\Desktop\Krypton-master\Krypton\ComponentFactory.Krypton.Navigator.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Ribbon">
+      <HintPath>..\..\..\..\Desktop\Krypton-master\Krypton\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\..\Desktop\Krypton-master\Krypton\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Workspace">
+      <HintPath>..\..\..\..\Desktop\Krypton-master\Krypton\ComponentFactory.Krypton.Workspace.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Downloads\MySql.Data (1)\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\ControlFunctions.cs" />
+    <Compile Include="Database\mySqlDbConnection.cs" />
+    <Compile Include="Models\Dashboard.cs" />
+    <Compile Include="Models\ModelStudent.cs" />
+    <Compile Include="Models\MUsers.cs" />
+    <Compile Include="Views\AboutUsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AboutUsView.Designer.cs">
+      <DependentUpon>AboutUsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\dbConnection.cs" />
+    <Compile Include="FM_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FM_Main.Designer.cs">
+      <DependentUpon>FM_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\CustomeControls\ChooseDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomeControls\ChooseDate.Designer.cs">
+      <DependentUpon>ChooseDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomeControls\ScMaSyMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CustomeControls\ScMaSyMessageBox.Designer.cs">
+      <DependentUpon>ScMaSyMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomeControls\StudentRow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomeControls\StudentRow.Designer.cs">
+      <DependentUpon>StudentRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomeControls\wClass.cs" />
+    <Compile Include="Views\CustomeControls\wDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomeControls\wDate.Designer.cs">
+      <DependentUpon>wDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FirstStartupConfig\FM_ClassConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FirstStartupConfig\FM_ClassConfig.Designer.cs">
+      <DependentUpon>FM_ClassConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FirstStartupConfig\FM_ClassSectionConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FirstStartupConfig\FM_ClassSectionConfig.Designer.cs">
+      <DependentUpon>FM_ClassSectionConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FirstStartupConfig\FM_DBConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FirstStartupConfig\FM_DBConfig.Designer.cs">
+      <DependentUpon>FM_DBConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_AddGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_AddGroup.Designer.cs">
+      <DependentUpon>FM_AddGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_AddOrEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_AddOrEditUser.Designer.cs">
+      <DependentUpon>FM_AddOrEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_AddOrEditClassroomSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_AddOrEditClassroomSection.Designer.cs">
+      <DependentUpon>FM_AddOrEditClassroomSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_AddOrEditClassroomView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_AddOrEditClassroomView.Designer.cs">
+      <DependentUpon>FM_AddOrEditClassroomView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_AddOrUpdateTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_AddOrUpdateTeacher.Designer.cs">
+      <DependentUpon>FM_AddOrUpdateTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_Courses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_Courses.Designer.cs">
+      <DependentUpon>FM_Courses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_GroupMngr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_GroupMngr.Designer.cs">
+      <DependentUpon>FM_GroupMngr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_NewAcademicYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_NewAcademicYear.Designer.cs">
+      <DependentUpon>FM_NewAcademicYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_Payment.Designer.cs">
+      <DependentUpon>FM_Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_PaymentResum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_PaymentResum.Designer.cs">
+      <DependentUpon>FM_PaymentResum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_Registration.Designer.cs">
+      <DependentUpon>FM_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_RelationBetweenClassroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_RelationBetweenClassroom.Designer.cs">
+      <DependentUpon>FM_RelationBetweenClassroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_Re_registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_Re_registration.Designer.cs">
+      <DependentUpon>FM_Re_registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_SchoolConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_SchoolConfig.Designer.cs">
+      <DependentUpon>FM_SchoolConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_ShowStudentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_ShowStudentDetails.Designer.cs">
+      <DependentUpon>FM_ShowStudentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_ShowUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_ShowUserInfo.Designer.cs">
+      <DependentUpon>FM_ShowUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FM_st_registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FM_st_registration.Designer.cs">
+      <DependentUpon>FM_st_registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HelpAndSupport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HelpAndSupport.Designer.cs">
+      <DependentUpon>HelpAndSupport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Interfaces\IUserView.cs" />
+    <Compile Include="Views\SchoolConfigView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SchoolConfigView.Designer.cs">
+      <DependentUpon>SchoolConfigView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\LoginView.Designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ClassroomView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ClassroomView.Designer.cs">
+      <DependentUpon>ClassroomView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StudentView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\StudentView.Designer.cs">
+      <DependentUpon>StudentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SystemHistory.Designer.cs">
+      <DependentUpon>SystemHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserGroupConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserGroupConfig.Designer.cs">
+      <DependentUpon>UserGroupConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UsersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UsersView.Designer.cs">
+      <DependentUpon>UsersView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\AboutUsView.resx">
+      <DependentUpon>AboutUsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FM_Main.resx">
+      <DependentUpon>FM_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\CustomeControls\ChooseDate.resx">
+      <DependentUpon>ChooseDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomeControls\ScMaSyMessageBox.resx">
+      <DependentUpon>ScMaSyMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomeControls\StudentRow.resx">
+      <DependentUpon>StudentRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomeControls\wDate.resx">
+      <DependentUpon>wDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FirstStartupConfig\FM_ClassConfig.resx">
+      <DependentUpon>FM_ClassConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FirstStartupConfig\FM_ClassSectionConfig.resx">
+      <DependentUpon>FM_ClassSectionConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FirstStartupConfig\FM_DBConfig.resx">
+      <DependentUpon>FM_DBConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_AddGroup.resx">
+      <DependentUpon>FM_AddGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_AddOrEditClassroomSection.resx">
+      <DependentUpon>FM_AddOrEditClassroomSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_AddOrEditClassroomView.resx">
+      <DependentUpon>FM_AddOrEditClassroomView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_AddOrEditUser.resx">
+      <DependentUpon>FM_AddOrEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_AddOrUpdateTeacher.resx">
+      <DependentUpon>FM_AddOrUpdateTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_Courses.resx">
+      <DependentUpon>FM_Courses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_GroupMngr.resx">
+      <DependentUpon>FM_GroupMngr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_NewAcademicYear.resx">
+      <DependentUpon>FM_NewAcademicYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_Payment.resx">
+      <DependentUpon>FM_Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_PaymentResum.resx">
+      <DependentUpon>FM_PaymentResum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_Registration.resx">
+      <DependentUpon>FM_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_RelationBetweenClassroom.resx">
+      <DependentUpon>FM_RelationBetweenClassroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_Re_registration.resx">
+      <DependentUpon>FM_Re_registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_SchoolConfig.resx">
+      <DependentUpon>FM_SchoolConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_ShowStudentDetails.resx">
+      <DependentUpon>FM_ShowStudentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_ShowUserInfo.resx">
+      <DependentUpon>FM_ShowUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FM_st_registration.resx">
+      <DependentUpon>FM_st_registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HelpAndSupport.resx">
+      <DependentUpon>HelpAndSupport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SchoolConfigView.resx">
+      <DependentUpon>SchoolConfigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LoginView.resx">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ClassroomView.resx">
+      <DependentUpon>ClassroomView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\StudentView.resx">
+      <DependentUpon>StudentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SystemHistory.resx">
+      <DependentUpon>SystemHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserGroupConfig.resx">
+      <DependentUpon>UserGroupConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UsersView.resx">
+      <DependentUpon>UsersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books_school%2832 x 32%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="books_school%2832 x 32%29.ico" />
+    <None Include="Resources\icons8_delete_25px_3.png" />
+    <None Include="Resources\Delete_icon-icons.com_737071.png" />
+    <None Include="Resources\search_find_lupa_21889.png" />
+    <None Include="Resources\Delete_icon-icons.com_73707.png" />
+    <None Include="Resources\icons8_christmas_star_20px.png" />
+    <None Include="Resources\minimize_14775 %285%29.png" />
+    <None Include="Resources\close_14776.png" />
+    <None Include="Resources\book_books 512 x 512.png" />
+    <None Include="Resources\icons8_multiply_20px.png" />
+    <None Include="Resources\icons8_subtract_20px.png" />
+    <None Include="Resources\configuration_config_system_1540.png" />
+    <None Include="Resources\icons8_eye_32px.png" />
+    <None Include="Resources\icons8_image_gallery_32px_1.png" />
+    <None Include="Resources\icons8_data_backup_32px.png" />
+    <None Include="Resources\icons8_save_close_30px.png" />
+    <None Include="Resources\icons8_lock_30px.png" />
+    <None Include="Resources\icons8_historical_30px1.png" />
+    <None Include="Resources\icons8_historical_30px.png" />
+    <None Include="Resources\apps_tools_apple_logo_reminders_notebook_notes_note_checklist_list_to_do_list_icon_182740.png" />
+    <None Include="Resources\community_users_12977.png" />
+    <None Include="Resources\add_user 32 x 32.png" />
+    <None Include="Resources\iEngrenages_24182.png" />
+    <None Include="Resources\icons8_add_48px.png" />
+    <None Include="Resources\Add_22314.png" />
+    <None Include="Resources\icons8_sort_down_16px.png" />
+    <None Include="Resources\icons8_email_32px.png" />
+    <None Include="Resources\icons8_phone_32px_1.png" />
+    <None Include="Resources\icons8_shutdown_32px.png" />
+    <None Include="Resources\cross_delete_remove_icon_197138.png" />
+    <None Include="Resources\print_printer_printing_15491.png" />
+    <None Include="Resources\businessregistration_signpen_negocio_inscripcio_2358 %281%29.png" />
+    <None Include="Resources\add_insert_1193.png" />
+    <None Include="Resources\49395_girl_lady_pupil_student_user_icon.png" />
+    <None Include="Resources\analytics_chart_bars_graphic_finance_business_money_coin_icon_150732.png" />
+    <None Include="Resources\print_printer_printing_1549.png" />
+    <None Include="Resources\admin_person_user_man 32 x 321.png" />
+    <None Include="Resources\teacher_man 32 x 32.png" />
+    <None Include="Resources\icons8_circle_16px_1.png" />
+    <None Include="Resources\icons8_microsoft_excel_2019_32px.png" />
+    <None Include="Resources\icons8_search_28px.png" />
+    <None Include="Resources\icons8_filled_circle_16px.png" />
+    <None Include="Resources\icons8_circle_16px.png" />
+    <None Include="Resources\icons8_alphabetical_sorting_32px.png" />
+    <None Include="Resources\icons8_error_32px.png" />
+    <None Include="Resources\icons8_time_25px.png" />
+    <None Include="Resources\icons8_eye_30px.png" />
+    <None Include="Resources\password_userpassword_9564.png" />
+    <None Include="Resources\icons8_user_shield_30px.png" />
+    <None Include="Resources\icons8_print_32px.png" />
+    <None Include="Resources\icons8_plus_25px.png" />
+    <None Include="Resources\icons8_edit_32px.png" />
+    <None Include="Resources\icons8_update_32px.png" />
+    <None Include="Resources\icons8_delete_32px_2.png" />
+    <None Include="Resources\icons8_course_32px.png" />
+    <None Include="Resources\icons8_classroom_32px.png" />
+    <None Include="Resources\icons8_hierarchy_32px.png" />
+    <None Include="Resources\icons8_calendar_1_32px.png" />
+    <None Include="Resources\icons8_info_32px.png" />
+    <None Include="Resources\icons8_contact_details_32px.png" />
+    <None Include="Resources\icons8_about_32px.png" />
+    <None Include="Resources\icons8_help_32px.png" />
+    <None Include="Resources\icons8_delete_12px.png" />
+    <None Include="Resources\icons8_edit_property_15px.png" />
+    <None Include="Resources\icons8_image_120px.png" />
+    <None Include="Resources\user_home_16958 %284%29.png" />
+    <None Include="Resources\admin_person_user_man 32 x 32.png" />
+    <None Include="Resources\user_add_12818.png" />
+    <None Include="Resources\users 32 x 32.png" />
+    <None Include="Resources\table_12945 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
